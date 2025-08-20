@@ -15,5 +15,4 @@ class Car {
     }
 }
 const car = new Car("Hoàng dz", "Lambo", "2004");
-car.display();
 //# sourceMappingURL=Car.js.map
