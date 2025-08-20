@@ -13,4 +13,16 @@ class Person {
 }
 const person = new Person("Hoàng dz", 21);
 console.log(person.greet());
+class Student extends Person {
+    grade;
+    constructor(name, age, grade) {
+        super(name, age);
+        this.grade = grade;
+    }
+    display() {
+        return `Tôi tên là ${this.name}, tôi ${this.age} tuổi và học lớp ${this.grade} `;
+    }
+}
+const student = new Student('hoàngdz', 18, 'DHKTPM18A');
+console.log(student.display());
 //# sourceMappingURL=Person.js.map
